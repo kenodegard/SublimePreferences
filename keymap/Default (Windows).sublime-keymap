@@ -1,0 +1,4 @@
+[
+    { "keys": ["super+ctrl+="], "command": "preferences_toggle", "args": { "increment": "+" } },
+    { "keys": ["super+ctrl+-"], "command": "preferences_toggle", "args": { "increment": "-" } },
+]

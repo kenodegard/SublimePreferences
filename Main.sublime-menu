@@ -1,0 +1,48 @@
+[{
+    "id": "tools",
+    "children": [{
+        "id": "packages",
+        "children": [{
+            "id": "preferences",
+            "caption": "Sublime Preferences",
+            "children": [{
+                "command": "preferences_toggle",
+                "caption": "Xsmall",
+                "args": { "is_size": "xsmall" }
+            }, {
+                "command": "preferences_toggle",
+                "caption": "Small",
+                "args": { "is_size": "small" }
+            }, {
+                "command": "preferences_toggle",
+                "caption": "Medium",
+                "args": { "is_size": "medium" }
+            }, {
+                "command": "preferences_toggle",
+                "caption": "Large",
+                "args": { "is_size": "large" }
+            }, {
+                "command": "preferences_toggle",
+                "caption": "Xlarge",
+                "args": { "is_size": "xlarge" }
+            }]
+        }]
+    }]
+}, {
+    "id": "preferences",
+    "children": [{
+        "id": "package-settings",
+        "children": [{
+            "caption": "Sublime Preferences",
+            "id": "preferences",
+            "children": [{
+                "caption": "Key Bindings",
+                "command": "edit_settings",
+                "args": {
+                    "base_file": "${packages}/SublimePreferences/keymap/Default ($platform).sublime-keymap",
+                    "default": "// Settings in here override those in \"Default/Preferences.sublime-keymap\",\n// and are overridden in turn by syntax-specific settings.\n{\n\t$0\n}\n",
+                }
+            }]
+        }]
+    }]
+}]
